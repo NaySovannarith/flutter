@@ -1,0 +1,10 @@
+^C:\USERS\PICH2004\ONEDRIVE - ITC.EDU.KH\SEMESTER LL\FLUTTER\TP1\TP1\BUILD\WINDOWS\X64\CMAKEFILES\96C1E6B4B233EF60BFC9CAF0275C1192\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Pich2004/OneDrive - itc.edu.kh/SEMESTER ll/Flutter/TP1/tp1/windows" "-BC:/Users/Pich2004/OneDrive - itc.edu.kh/SEMESTER ll/Flutter/TP1/tp1/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Pich2004/OneDrive - itc.edu.kh/SEMESTER ll/Flutter/TP1/tp1/build/windows/x64/tp1.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
